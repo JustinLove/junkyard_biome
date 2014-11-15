@@ -1,0 +1,18 @@
+{
+  "author": "wondible",
+  "build": "74525",
+  "category": ["biome", "system-editor"],
+  "context": "client",
+  "date": "2014/11/14",
+  "description": "A desert planet with lots of reclaimable metal bits.",
+  "display_name": "Junkyard Biome",
+  "forum": null,
+  "identifier": "com.wondible.pa.junkyard_biome.client",
+  "scenes": {
+    "system_editor": [
+      "coui://ui/mods/junkyard_biome/junkyard_biome.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}

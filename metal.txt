@@ -1,0 +1,17 @@
+    "/pa/terrain/metal/features/metal_feature_01.json", // two boxes
+    "/pa/terrain/metal/features/metal_feature_02.json", // slope on one side
+    "/pa/terrain/metal/features/metal_feature_03.json", // right angle
+    "/pa/terrain/metal/features/metal_feature_04.json", // two long skewed
+    "/pa/terrain/metal/features/metal_feature_05.json", // long, ends sloped
+    "/pa/terrain/metal/features/metal_feature_06.json", // handle/pipe
+    "/pa/terrain/metal/features/metal_feature_07.json", // pipe, fat at one end
+    "/pa/terrain/metal/features/metal_feature_08.json", // U, slopedon bottom
+    "/pa/terrain/metal/features/metal_feature_09.json", // rock hand; two arms
+    "/pa/terrain/metal/features/metal_feature_10.json", // flat, possible door
+    "/pa/terrain/metal/features/metal_feature_11.json", // two stacked pieces, extensions at right angle
+    "/pa/terrain/metal/features/metal_feature_12.json", // box with double pipe
+    "/pa/terrain/metal/features/metal_feature_13.json", // boxy; robot torso
+    "/pa/terrain/metal/features/metal_feature_14.json", // box with two ramps on either side
+    "/pa/terrain/metal/features/metal_feature_15.json", // panel, center with three elements
+    "/pa/terrain/metal/features/metal_feature_16.json", // spike
+
