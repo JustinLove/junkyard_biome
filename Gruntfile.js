@@ -83,18 +83,6 @@ module.exports = function(grunt) {
           return spec
         }
       },
-      dump_biome_type: {
-        src: [
-          'pa/terrain/moon.json'
-        ],
-        cwd: media,
-        dest: 'pa/terrain/dump.json',
-        process: function(spec) {
-          spec.name = 'dump'
-          spec.biomes[0].spec = "/pa/terrain/junkyard/moon.json"
-          return spec
-        }
-      },
       junkyard_sand: {
         src: [
           'pa/terrain/sand/sand.json'
@@ -128,19 +116,78 @@ module.exports = function(grunt) {
           return spec
         }
       },
+      dump_biome_type: {
+        src: [
+          'pa/terrain/moon.json'
+        ],
+        cwd: media,
+        dest: 'pa/terrain/dump.json',
+        process: function(spec) {
+          spec.name = 'dump'
+          spec.biomes[0].spec = "/pa/terrain/dump/moon.json"
+          return spec
+        }
+      },
       junkyard_moon: {
         src: [
           'pa/terrain/moon/moon.json',
           'pa/terrain/metal/metal.json'
         ],
         cwd: media,
-        dest: 'pa/terrain/junkyard/moon.json',
+        dest: 'pa/terrain/dump/moon.json',
         process: function(spec, metal) {
-          spec.name = 'junkyard_moon'
+          var feature_sizes = [
+            0, // n/a
+            1, // two boxes
+            2, // slope on one side
+            12, // right angle
+            4, // two long skewed
+            7, // long, ends sloped
+            10, // handle/pipe
+            21, // pipe, fat at one end
+            8, // U, slopedon bottom
+            9, // rock hand; two arms
+            20, // flat, possible door
+            22, // two stacked pieces, extensions at right angle
+            24, // box with double pipe
+            20, // boxy; robot torso
+            28, // box with two ramps on either side
+            30, // panel, center with three elements
+            4, // spike
+          ]
+          spec.name = 'dump_moon'
+          metal.features.forEach(function(feature) {
+            feature.scale = [1.5, 1.5, 1.5]
+            var name = feature.feature_spec.replace('metal/features/metal_feature', 'dump/features/dump_feature')
+            var number = parseInt(name.match(/\d\d/)[0], 10)
+            var size = feature_sizes[number]
+
+            var fspec = grunt.file.readJSON(media+feature.feature_spec)
+            fspec.base_spec = '/pa/terrain/dump/features/base_dump_feature.json'
+            fspec.placement_size = [size, size]
+            fspec.max_health = size * 100
+            fspec.metal_value = size * 100 * fspec.max_health * 10
+            grunt.file.write('.'+name, JSON.stringify(fspec, null, 2))
+
+            feature.feature_spec = name
+          })
           spec.features = spec.features.concat(metal.features)
           return spec
         }
-      }
+      },
+      dump_feature: {
+        src: [
+          'pa/terrain/metal/features/base_metal_feature.json'
+        ],
+        cwd: media,
+        dest: 'pa/terrain/dump/features/base_dump_feature.json',
+        process: function(spec) {
+          spec.reclaimable = true
+          spec.damageable = true // required for reclaim
+          spec.path_cost = 500
+          return spec
+        }
+      },
     }
   });
 

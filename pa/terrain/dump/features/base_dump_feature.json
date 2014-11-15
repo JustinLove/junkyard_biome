@@ -1,0 +1,6 @@
+{
+  "base_spec": "/pa/terrain/generic/base_feature.json",
+  "reclaimable": true,
+  "damageable": true,
+  "path_cost": 500
+}

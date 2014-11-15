@@ -1,0 +1,12 @@
+{
+  "base_spec": "/pa/terrain/dump/features/base_dump_feature.json",
+  "model": {
+    "filename": "/pa/terrain/metal/fbx/metal_feature_16.papa"
+  },
+  "placement_size": [
+    4,
+    4
+  ],
+  "max_health": 400,
+  "metal_value": 1600000
+}

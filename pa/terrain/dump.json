@@ -3,7 +3,7 @@
   "ambient_sound": "/SE/Ambience/Amb_Planet_Moon",
   "biomes": [
     {
-      "spec": "/pa/terrain/junkyard/moon.json",
+      "spec": "/pa/terrain/dump/moon.json",
       "temperature": [
         -1,
         1,
