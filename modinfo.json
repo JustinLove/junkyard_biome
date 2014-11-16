@@ -6,7 +6,7 @@
   "date": "2014/11/14",
   "description": "A desert or moon planet with lots of reclaimable metal bits.",
   "display_name": "Junkyard Biome",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/wip-client-server-junkyard-biome.66000/",
   "identifier": "com.wondible.pa.junkyard_biome.client",
   "scenes": {
     "system_editor": [
