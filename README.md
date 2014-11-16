@@ -8,7 +8,7 @@ Best played with few or no metal spots; goes well with other reclaim oriented mo
 
 ## Playing Custom Biomes
 
-A client mod is needed for the sytem editor, server mod to actually play on it.  When setting up human lobbies, I strongly recommend using a stock biome system until all players have joined and downloaded mods, and then changing the system.
+A client mod is needed for the system editor, server mod to actually play on it.  When setting up human lobbies, I strongly recommend using a stock biome system until all players have joined and downloaded mods, and then changing the system.
 
 ## Related mods
 
