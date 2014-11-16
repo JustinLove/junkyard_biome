@@ -4,7 +4,7 @@
   "category": ["biome", "system-editor"],
   "context": "client",
   "date": "2014/11/14",
-  "description": "A desert planet with lots of reclaimable metal bits.",
+  "description": "A desert or moon planet with lots of reclaimable metal bits.",
   "display_name": "Junkyard Biome",
   "forum": null,
   "identifier": "com.wondible.pa.junkyard_biome.client",

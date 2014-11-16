@@ -1,11 +1,21 @@
 # Junkyard Biome
 
-A desert planet with lots of reclaimable metal bits.
+Junkyard: A desert biome type, with lots of little reclaimable junk. (not yet implemented)
 
-## Features
+Dump: A moon planet with less large reclaimable junk.
 
-- Rainbows
-- Unicorns
+Best played with few or no metal spots; goes well with other reclaim oriented mods.
+
+## Playing Custom Biomes
+
+A client mod is needed for the sytem editor, server mod to actually play on it.  When setting up human lobbies, I strongly recommend using a stock biome system until all players have joined and downloaded mods, and then changing the system.
+
+## Related mods
+
+- [Junkyard Wars](https://forums.uberent.com/threads/rel-server-junkyards-wars-2-1-0.65367/)
+- [Minimal Mex](https://forums.uberent.com/threads/rel-server-minimal-mex.65688/)
+- [No Metal Commander](https://forums.uberent.com/threads/rel-server-no-metal-commander.65489/)
+- [Wreckage](https://forums.uberent.com/threads/rel-server-wreckage.65404/)
 
 ## Development
 
@@ -15,7 +25,12 @@ PA will upload **all files** in the mod directory, including `node_modules` and 
 
 ### Available Tasks
 
+- copy:static - copy static files into mods files for publishing
 - copy:mod - copy the mod files into server_mods
-- proc:adv_comfab - Proc: read one or more files from PA and munge into one in the mod.  Example is a reduced cost adv. fabrication bot
-- proc:antinuke - restore the builtin first antinuke.
-- default: proc, copy:mod
+- copy:modinfo - repo is configured for client, this makes the server modinfo
+- clean - remove the mods pa directory and server instance to avoid leftover files
+- proc - read one or more files from PA and munge into one in the mod.
+- jsonlint - verify file syntax
+- client - copy:static, proc, jsonlint
+- server - copy:mod, copy:modinfo
+- default - client
