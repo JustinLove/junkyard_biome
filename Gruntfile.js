@@ -10,16 +10,14 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     copy: {
-      biome: {
+      static: {
         files: [
           {
-            src: media + 'pa/terrain/metal.json',
-            dest: 'pa/terrain/devastated_metal.json',
-          },
-          {
-            src: media + 'pa/terrain/metal/metal.json',
-            dest: 'pa/terrain/metal/devastated_metal.json',
-          },
+            expand: true,
+            src: '**',
+            dest: './',
+            cwd: 'static/'
+          }
         ],
       },
       mod: {
@@ -113,6 +111,9 @@ module.exports = function(grunt) {
         dest: 'pa/terrain/junkyard/mountain.json',
         process: function(spec) {
           spec.name = 'junkyard_mountain'
+          spec.brushes = spec.brushes.filter(function(brush) {
+            return brush.brush_spec != "/pa/terrain/generic/brushes/unit_cannon_wreckage.json"
+          })
           return spec
         }
       },
@@ -156,8 +157,16 @@ module.exports = function(grunt) {
             4, // spike
           ]
           spec.name = 'dump_moon'
+          spec.brushes = spec.brushes.filter(function(brush) {
+            return brush.brush_spec != "/pa/terrain/generic/brushes/unit_cannon_wreckage.json"
+          })
           metal.features.forEach(function(feature) {
             feature.scale = [1.5, 1.5, 1.5]
+            delete feature.rotation
+            delete feature.latitude_snap
+            delete feature.longitude_snap
+            delete feature.fixed_orient
+            
             var name = feature.feature_spec.replace('metal/features/metal_feature', 'dump/features/dump_feature')
             var number = parseInt(name.match(/\d\d/)[0], 10)
             var size = feature_sizes[number]
@@ -172,6 +181,17 @@ module.exports = function(grunt) {
             feature.feature_spec = name
           })
           spec.features = spec.features.concat(metal.features)
+
+          var uc = JSON.parse(JSON.stringify(spec.features[metal.features.length-1]))
+          uc.scale = [1, 1, 1]
+          uc.noise_range = [0.77, 0.8]
+          uc.feature_spec = "/pa/terrain/dump/features/unit_cannon_wreckage.json"
+          spec.features.push(uc)
+
+          var cp = JSON.parse(JSON.stringify(spec.features[metal.features.length-1]))
+          cp.scale = [1, 1, 1]
+          cp.feature_spec = "/pa/terrain/dump/features/control_point_01.json"
+          spec.features.push(cp)
           return spec
         }
       },
@@ -206,7 +226,7 @@ module.exports = function(grunt) {
     }
   })
 
-  grunt.registerTask('client', ['proc', 'jsonlint']);
+  grunt.registerTask('client', ['copy:static', 'proc', 'jsonlint']);
   grunt.registerTask('server', ['copy:mod', 'copy:modinfo']);
 
   // Default task(s).

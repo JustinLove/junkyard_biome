@@ -1,0 +1,9 @@
+{
+  "base_spec": "/pa/terrain/dump/features/base_dump_feature.json",
+  "max_health": 10000,
+  "metal_value": 1000000000,
+  "placement_size": [50, 50],
+  "model": {
+    "filename": "/pa/terrain/generic/fbx/unit_cannon_wreckage.papa"
+  }
+}

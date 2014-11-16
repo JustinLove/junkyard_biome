@@ -520,39 +520,6 @@
         0,
         0.45
       ]
-    },
-    {
-      "layer": 3,
-      "note": "(Landmark - occurs only once on a planet, set to layer 3)",
-      "brush_spec": "/pa/terrain/generic/brushes/unit_cannon_wreckage.json",
-      "op": "BO_Add",
-      "proj": "BP_Bend",
-      "noise_range": [
-        0.1,
-        0.3
-      ],
-      "biome_distance_range": [
-        60,
-        75
-      ],
-      "threshold": 0,
-      "weight": 1,
-      "weight_hard": true,
-      "bias": 1,
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "max_instances": 1,
-      "planet_size_range": [
-        500,
-        700
-      ],
-      "elevation_range": [
-        0,
-        0.45
-      ]
     }
   ],
   "features": [

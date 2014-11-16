@@ -171,36 +171,6 @@
         0.3
       ],
       "max_instances": 1
-    },
-    {
-      "note": "(Landmark - occurs only once on a planet)",
-      "layer": 4,
-      "weight": 2,
-      "weight_hard": true,
-      "threshold": 0,
-      "sample_scale": 1.2,
-      "bias": 1,
-      "noise_range": [
-        0.7,
-        0.71
-      ],
-      "op": "BO_Add",
-      "proj": "BP_Bend",
-      "brush_spec": "/pa/terrain/generic/brushes/unit_cannon_wreckage.json",
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "planet_size_range": [
-        700,
-        750
-      ],
-      "elevation_range": [
-        0,
-        0.3
-      ],
-      "max_instances": 1
     }
   ],
   "features": [
@@ -445,15 +415,6 @@
         0,
         2
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_01.json",
       "scale": [
         1.5,
@@ -473,15 +434,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_02.json",
       "scale": [
         1.5,
@@ -501,15 +453,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_03.json",
       "scale": [
         1.5,
@@ -529,15 +472,6 @@
         0,
         2
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_04.json",
       "scale": [
         1.5,
@@ -557,15 +491,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_05.json",
       "scale": [
         1.5,
@@ -585,15 +510,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_06.json",
       "scale": [
         1.5,
@@ -613,15 +529,6 @@
         0,
         2
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_07.json",
       "scale": [
         1.5,
@@ -641,15 +548,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_08.json",
       "scale": [
         1.5,
@@ -669,15 +567,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_09.json",
       "scale": [
         1.5,
@@ -697,15 +586,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_10.json",
       "scale": [
         1.5,
@@ -725,15 +605,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 200,
-      "longitude_snap": 200,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_11.json",
       "scale": [
         1.5,
@@ -753,15 +624,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 200,
-      "longitude_snap": 200,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_12.json",
       "scale": [
         1.5,
@@ -781,15 +643,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 200,
-      "longitude_snap": 200,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_13.json",
       "scale": [
         1.5,
@@ -809,15 +662,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 200,
-      "longitude_snap": 200,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_14.json",
       "scale": [
         1.5,
@@ -837,15 +681,6 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90,
-        180,
-        270
-      ],
-      "latitude_snap": 200,
-      "longitude_snap": 200,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_15.json",
       "scale": [
         1.5,
@@ -865,18 +700,49 @@
         0,
         1
       ],
-      "fixed_orient": true,
-      "rotation": [
-        0,
-        90
-      ],
-      "latitude_snap": 100,
-      "longitude_snap": 100,
       "feature_spec": "/pa/terrain/dump/features/dump_feature_16.json",
       "scale": [
         1.5,
         1.5,
         1.5
+      ]
+    },
+    {
+      "layer": 6,
+      "op": "BO_Add",
+      "noise_range": [
+        0.77,
+        0.8
+      ],
+      "cluster_size": 100,
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "feature_spec": "/pa/terrain/dump/features/unit_cannon_wreckage.json",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "layer": 6,
+      "op": "BO_Add",
+      "noise_range": [
+        0.6,
+        0.9
+      ],
+      "cluster_size": 100,
+      "cluster_count_range": [
+        0,
+        2
+      ],
+      "feature_spec": "/pa/terrain/dump/features/control_point_01.json",
+      "scale": [
+        1,
+        1,
+        1
       ]
     }
   ],

@@ -1,0 +1,13 @@
+{
+  "base_spec": "/pa/terrain/dump/features/base_dump_feature.json",
+  "max_health": 2700,
+  "metal_value": 72900000,
+  "model": {
+    "filename": "/pa/effects/fbx/control_point_01.papa"
+  }, 
+  "placement_size": [
+    20, 
+    16, 
+    27
+  ]
+}

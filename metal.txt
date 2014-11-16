@@ -15,3 +15,18 @@
     "/pa/terrain/metal/features/metal_feature_15.json", // panel, center with three elements
     "/pa/terrain/metal/features/metal_feature_16.json", // spike
 
+/pa/terrain/metal/fbx/metal_stripe_01.papa // large, long; hard to match to sphere size
+/pa/terrain/metal/fbx/metal_structure_02.papa // four panels
+/pa/terrain/metal/fbx/metal_structure_03.papa // large three section rect
+/pa/terrain/metal/fbx/metal_structure_04.papa // large mirrored rect
+/pa/terrain/metal/fbx/metal_structure_05.papa // crash as feature
+/pa/terrain/metal/fbx/metal_structure_06.papa // large and long
+/pa/terrain/metal/fbx/metal_structure_07.papa // ~4:5 rect, somewhat large
+/pa/terrain/metal/fbx/metal_structure_08.papa // squareish, somewhat large
+/pa/terrain/metal/fbx/metal_structure_09.papa // large long mirrored
+/pa/terrain/metal/fbx/metal_structure_10.papa // large 2:1 rect
+/pa/terrain/metal/fbx/metal_structure_11.papa // huge squareish panel
+/pa/terrain/metal/fbx/metal_structure_12.papa // platform with two ramps
+/pa/terrain/metal/fbx/metal_structure_13.papa // huge I structure
+/pa/terrain/metal/fbx/metal_structure_14.papa // huge, three ramps
+/pa/terrain/metal/fbx/metal_structure_15.papa // crash as feature
