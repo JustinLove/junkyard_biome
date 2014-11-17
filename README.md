@@ -1,6 +1,6 @@
 # Junkyard Biome
 
-Junkyard: A desert biome type, with lots of little reclaimable junk. (not yet implemented)
+Junkyard: A desert biome type, with lots of little reclaimable junk.
 
 Dump: A moon planet with less large reclaimable junk.
 

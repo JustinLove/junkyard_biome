@@ -1,0 +1,19 @@
+{
+  "base_spec": "/pa/terrain/junkyard/features/base_junkyard_feature.json",
+  "model": {
+    "filename": "/pa/terrain/metal/fbx/metal_feature_16.papa"
+  },
+  "placement_size": [
+    2,
+    2
+  ],
+  "max_health": 20,
+  "metal_value": 4000,
+  "burnable": {
+    "burn_duration": 42,
+    "damage": 20,
+    "damage_radius": 2,
+    "resistance": 180,
+    "spread_chance": 0.1
+  }
+}

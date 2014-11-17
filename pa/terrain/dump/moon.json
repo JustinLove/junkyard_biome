@@ -714,10 +714,10 @@
         0.77,
         0.8
       ],
-      "cluster_size": 100,
+      "cluster_size": 15,
       "cluster_count_range": [
         0,
-        2
+        1
       ],
       "feature_spec": "/pa/terrain/dump/features/unit_cannon_wreckage.json",
       "scale": [
@@ -730,13 +730,13 @@
       "layer": 6,
       "op": "BO_Add",
       "noise_range": [
-        0.6,
-        0.9
+        0.77,
+        0.8
       ],
-      "cluster_size": 100,
+      "cluster_size": 15,
       "cluster_count_range": [
         0,
-        2
+        1
       ],
       "feature_spec": "/pa/terrain/dump/features/control_point_01.json",
       "scale": [
