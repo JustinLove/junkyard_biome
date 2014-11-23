@@ -3,10 +3,10 @@
   "build": "74525",
   "category": ["biome", "system-editor"],
   "context": "client",
-  "date": "2014/11/22",
+  "date": "2014/11/23",
   "description": "A desert or moon planet with lots of reclaimable metal bits.",
   "display_name": "Junkyard Biome",
-  "forum": "https://forums.uberent.com/threads/wip-client-server-junkyard-biome.66000/",
+  "forum": "https://forums.uberent.com/threads/rel-client-server-junkyard-biome.66121/",
   "icon": "http://wondible.com/pa/icons/junkyard_biome.png",
   "identifier": "com.wondible.pa.junkyard_biome.client",
   "scenes": {
@@ -15,5 +15,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.3.0"
+  "version": "1.0.0"
 }
