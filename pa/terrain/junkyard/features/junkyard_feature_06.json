@@ -8,7 +8,7 @@
     5
   ],
   "max_health": 50,
-  "metal_value": 25000,
+  "metal_value": 12500,
   "burnable": {
     "burn_duration": 60,
     "damage": 20,

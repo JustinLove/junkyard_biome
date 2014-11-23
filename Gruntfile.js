@@ -54,7 +54,7 @@ module.exports = function(grunt) {
         fspec.base_spec = '/pa/terrain/junkyard/features/base_junkyard_feature.json'
         fspec.placement_size = [size, size]
         fspec.max_health = size * 10
-        fspec.metal_value = size * 10 * fspec.max_health * 10
+        fspec.metal_value = size * 5 * fspec.max_health * 10
         fspec.burnable = {
           "burn_duration": 30 + Math.floor(size/15 * 90),
           "damage": 20, 
@@ -284,7 +284,7 @@ module.exports = function(grunt) {
             fspec.base_spec = '/pa/terrain/dump/features/base_dump_feature.json'
             fspec.placement_size = [size, size]
             fspec.max_health = size * 100
-            fspec.metal_value = size * 100 * fspec.max_health * 10
+            fspec.metal_value = size * 50 * fspec.max_health * 10
             grunt.file.write('.'+name, JSON.stringify(fspec, null, 2))
 
             feature.feature_spec = name

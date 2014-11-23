@@ -3,7 +3,7 @@
   "build": "74525",
   "category": ["biome", "system-editor"],
   "context": "client",
-  "date": "2014/11/17",
+  "date": "2014/11/22",
   "description": "A desert or moon planet with lots of reclaimable metal bits.",
   "display_name": "Junkyard Biome",
   "forum": "https://forums.uberent.com/threads/wip-client-server-junkyard-biome.66000/",
@@ -14,5 +14,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
