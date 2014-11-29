@@ -3,8 +3,8 @@
   "build": "74525",
   "category": ["biome", "system-editor"],
   "context": "client",
-  "date": "2014/11/23",
-  "description": "A desert or moon planet with lots of reclaimable metal bits.",
+  "date": "2014/11/29",
+  "description": "Create desert or moon planets with lots of reclaimable metal bits. A separate server mod is required to play.",
   "display_name": "Junkyard Biome",
   "forum": "https://forums.uberent.com/threads/rel-client-server-junkyard-biome.66121/",
   "icon": "http://wondible.com/pa/icons/junkyard_biome.png",
@@ -15,5 +15,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

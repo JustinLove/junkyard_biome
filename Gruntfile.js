@@ -131,6 +131,7 @@ module.exports = function(grunt) {
         options: {
           process: function(content, srcpath) {
             var info = JSON.parse(content)
+            info.description = "Play desert or moon planets with lots of reclaimable metal bits. A separate client mod is required to create planets.",
             info.date = require('dateformat')(new Date(), 'yyyy/mm/dd')
             info.identifier = info.identifier.replace('client', 'server')
             info.context = 'server'
