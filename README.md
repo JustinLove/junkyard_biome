@@ -12,7 +12,6 @@ A client mod is needed for the system editor, server mod to actually play on it.
 
 ## Related mods
 
-- [Junkyard Wars](https://forums.uberent.com/threads/rel-server-junkyards-wars-2-1-0.65367/)
 - [Minimal Mex](https://forums.uberent.com/threads/rel-server-minimal-mex.65688/)
 - [No Metal Commander](https://forums.uberent.com/threads/rel-server-no-metal-commander.65489/)
 - [Wreckage](https://forums.uberent.com/threads/rel-server-wreckage.65404/)

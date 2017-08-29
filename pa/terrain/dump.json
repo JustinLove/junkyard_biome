@@ -1,6 +1,7 @@
 {
   "name": "dump",
   "ambient_sound": "/SE/Ambience/Amb_Planet_Moon",
+  "metal_spot_spec": "/pa/effects/features/metal_splat_02.json",
   "biomes": [
     {
       "spec": "/pa/terrain/dump/moon.json",

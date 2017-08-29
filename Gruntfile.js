@@ -136,6 +136,7 @@ module.exports = function(grunt) {
             info.identifier = info.identifier.replace('client', 'server')
             info.context = 'server'
             info.category = ['biome', 'metal', 'reclaim']
+            info.companions = ["com.wondible.pa.junkyard_biome.client"]
             delete(info.scenes)
             delete(info.priority)
             console.log(info.identifier, info.version, info.date)

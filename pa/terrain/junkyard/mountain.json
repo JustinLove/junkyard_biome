@@ -188,6 +188,7 @@
       "scale_variation": 0
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -213,6 +214,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -238,6 +240,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 4,
@@ -263,6 +266,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -288,6 +292,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -313,6 +318,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -338,6 +344,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 3,
@@ -363,6 +370,7 @@
       "scale_variation": 0.2
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 4,
@@ -388,6 +396,7 @@
       "scale_variation": 0.1
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 1,
@@ -412,6 +421,7 @@
       "scale_variation": 0.2
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 1,
       "weight_scale": 4,
@@ -437,6 +447,7 @@
       "scale_variation": 0.2
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 2,
       "weight_scale": 1.5,
@@ -462,6 +473,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 2,
       "weight_scale": 1.5,
@@ -487,6 +499,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 2,
       "weight_scale": 1.5,
@@ -512,6 +525,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 2,
       "weight_scale": 1.5,
@@ -537,6 +551,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 3,
       "weight": 2,
       "weight_scale": 1.5,
@@ -562,6 +577,7 @@
       ]
     },
     {
+      "group": "basic",
       "layer": 3,
       "note": "(Landmark - occurs only once on a planet, set to layer 3)",
       "brush_spec": "/pa/terrain/mountain/brushes/mountain_henge.json",
@@ -592,6 +608,594 @@
         0,
         0.45
       ]
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_large_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_large_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_large_8_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t1_pit_2_ramp.json",
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_large_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_large_long.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_medium_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_medium_long.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_medium_wide_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t2_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_small.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_small_2x_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "organic",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_t3_small_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_large_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_large_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_large_8_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t1_pit_2_ramp.json",
+      "op": "BO_Subtract",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_large_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_large_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_large_long.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_bend.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_long.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_medium_wide_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t2_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_medium_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_medium_4_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_small.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 0,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_small_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_small_2_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_small_3_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
+    },
+    {
+      "group": "structural",
+      "layer": 7,
+      "brush_spec": "/pa/terrain/mountain/brushes/mountain_metal_t3_small_2x_1_ramp.json",
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "planet_size_range": [
+        10,
+        20
+      ],
+      "required_content": "PAExpansion1"
     }
   ],
   "features": [
